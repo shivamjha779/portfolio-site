@@ -13,14 +13,19 @@ body{
     background-color: ;
 }
 .header-container{
-    background-color:red;
+    /* background-color:red; */
     min-height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center
+    /* align-items: center; */
+    flex-direction: row;
 }
 .nav-bar{
     background-color:;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .heading{
     /* background-color: blue; */
