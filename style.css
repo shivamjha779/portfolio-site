@@ -13,7 +13,36 @@
     color: white;
 }
 .name {
-    padding: 10px 5px;
+    /* padding: 10px 5px; */
     font-size: 1.5rem;
     font-weight: 500;
+    margin: 1rem;
+}
+.navlinks {
+    /* padding: 1% 5%; */
+    margin: 0.5rem;
+}
+.navlinks ul {
+    /* display: block; */
+    display: flex;
+    /* flex-direction: row; */
+    padding: 0%;
+    margin: 0%;
+}
+.navlinks li {
+    /* padding: 10px; */
+    list-style: none;
+    padding: 0;
+}
+.navlinks li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 1rem;
+}
+.navlinks ul a:hover {
+    color: blueviolet;
+}
+.navlinks ul li:hover {
+    background-color: rgb(83, 49, 49);
 }
